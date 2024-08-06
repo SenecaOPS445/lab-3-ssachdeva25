@@ -1,0 +1,35 @@
+test_0 (__main__.lab3a.test_0)
+[Lab 3] - [Investigation 1] - [Part 4] - Functions - Test for file creation: ./lab3a.py ... ok
+test_1 (__main__.lab3a.test_1)
+[Lab 3] - [Investigation 1] - [Part 4] - Functions - Test for errors running: ./lab3a.py ... ok
+test_2 (__main__.lab3a.test_2)
+[Lab 3] - [Investigation 1] - [Part 4] - Functions - Test for correct shebang line: ./lab3a.py ... ok
+test_4_function_return_text_value (__main__.lab3a.test_4_function_return_text_value)
+[Lab 3] - [Investigation 1] - [Part 4] - Functions - function print_out_text() has correct output ... FAIL
+
+======================================================================
+FAIL: test_4_function_return_text_value (__main__.lab3a.test_4_function_return_text_value)
+[Lab 3] - [Investigation 1] - [Part 4] - Functions - function print_out_text() has correct output
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/sambhav/ops445/lab3/./CheckLab3.py", line 79, in test_4_function_return_text_value
+    self.assertEqual(lab3aStudent.return_text_value(), expected_output, msg=error_output)
+AssertionError: 'Hello, this is a greeting!' != 'Good Morning Terry'
+- Hello, this is a greeting!
++ Good Morning Terry
+ : lab3a.py print_out_text() has wrong output (HINT: make sure you copied the script exactly!
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.222s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab3.py
+=================================================================
+    User login name: sambhav
+    Linux system name: fedora
+    Python executable: /usr/bin/python3
+    Python version: 3123
+    OS Platform: linux
+    Working Directory: /home/sambhav/ops445/lab3
+    Start at: Sat Jun 15 23:18:03 2024
+=================================================================
